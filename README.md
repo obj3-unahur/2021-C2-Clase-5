@@ -12,14 +12,14 @@ Por eso les paso estos pasos que me sirvieron para importar los proyectos:
 
 2. Crear un nuevo proyecto de Scala -> sbt.
 
-![02 - New SBT Project](assets/02-New_SBT_Project.png)
+![02 - New SBT Project](assets/02-New_SBT_Project.PNG)
 
 3. Configurar el nuevo proyecto con los siguientes valores:
   * Nombre del proyecto debe ser el mismo que el nombre de la carpeta donde se clonó el repositorio.
   * Ubicación del proyecto debe ser la carpeta que se clonó.
   * Prefijo del paquete debe ser: **ar.edu.unahur**
 
-![03 - Project Configuration](assets/03-Project_Configuration.png)
+![03 - Project Configuration](assets/03-Project_Configuration.PNG)
 
 4. Configurar el archivo build.sbt agregando las 2 librerías necesarias para realizar los tests:
   * libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.9"
